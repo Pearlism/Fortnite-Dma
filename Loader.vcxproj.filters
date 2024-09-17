@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{ff5a2b6d-5362-4dc5-8772-74be3f57e8fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mapper">
+      <UniqueIdentifier>{209d03df-f20e-4368-8e5e-a7d9ff409d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{68b917ab-ccb6-46bf-a467-9929db43ba62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{b9a2b0c9-4f04-48e7-9679-a35860ce9828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{09ab1229-53b9-4e2f-b391-3130cc58d09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KmBox">
+      <UniqueIdentifier>{08156f75-7298-42c8-9e07-f8bb66601ab4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="image.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\json.hpp">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_freetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_settings.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\notification.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\backends\imgui_impl_dx11.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\backends\imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\freetype\include\ft2build.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Create_win.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\intel_driver.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\intel_driver_resource.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\kmdf_loader2.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\Mapper.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\nt.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\portable_executable.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\service.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\utils.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\Auth.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\mem.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="SkCrypt.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\InputManager.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\leechcore.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Registry.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Shellcode.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\structs.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\vmmdll.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDefine.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="KmBox\ExcludedH.h">
+      <Filter>KmBox</Filter>
+    </ClInclude>
+    <ClInclude Include="KmBox\kmbox_b.hpp">
+      <Filter>KmBox</Filter>
+    </ClInclude>
+    <ClInclude Include="KmBox\KmboxB.h">
+      <Filter>KmBox</Filter>
+    </ClInclude>
+    <ClInclude Include="KmBox\KmBoxConfig.h">
+      <Filter>KmBox</Filter>
+    </ClInclude>
+    <ClInclude Include="KmBox\KmBoxData.h">
+      <Filter>KmBox</Filter>
+    </ClInclude>
+    <ClInclude Include="KmBox\KmBoxNetManager.h">
+      <Filter>KmBox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_freetype.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\backends\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\intel_driver.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\kmdf_loader2.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\portable_executable.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\service.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\utils.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver\mem.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\InputManager.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Memory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Registry.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Shellcode.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="KmBox\KmboxB.cpp">
+      <Filter>KmBox</Filter>
+    </ClCompile>
+    <ClCompile Include="KmBox\KmBoxNetManager.cpp">
+      <Filter>KmBox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Imgui\freetype\win64\freetype.lib">
+      <Filter>Imgui</Filter>
+    </Library>
+    <Library Include="Memory\leechcore.lib">
+      <Filter>Memory</Filter>
+    </Library>
+    <Library Include="Memory\vmm.lib">
+      <Filter>Memory</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Memory\FTD3XX.dll">
+      <Filter>Memory</Filter>
+    </None>
+    <None Include="Memory\info.db">
+      <Filter>Memory</Filter>
+    </None>
+    <None Include="Memory\leechcore.dll">
+      <Filter>Memory</Filter>
+    </None>
+    <None Include="Memory\vmm.dll">
+      <Filter>Memory</Filter>
+    </None>
+  </ItemGroup>
+</Project>
